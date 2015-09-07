@@ -1,0 +1,16 @@
+.mugshot {
+  text-align: center;
+  margin-bottom: 30px;
+  img {
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+}
+
+.fa {
+  color: $grey-color;
+  font-size: 1.2em !important;
+  vertical-align: middle;
+}

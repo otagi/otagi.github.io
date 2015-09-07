@@ -1,0 +1,33 @@
+# Site settings
+title: Tiago Mendes-Costa
+email: hello@mendes-costa.net
+description: > # this means to ignore newlines until "baseurl:"
+  Tiago Mendes-Costa's home page and blog.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://mendes-costa.net" # the base hostname & protocol for your site
+twitter_username:   otagi
+github_username:    otagi
+linkedin_username:  otagi
+flickr_username:    otagi
+instagram_username: otagi
+stackoverflow_username: 2387219/tiago
+
+# Build settings
+markdown: kramdown
+
+# Outputting
+permalink: none
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  -
+    scope:
+      path: "drafts"
+      type: "drafts"
+    values:
+      layout: "post"
