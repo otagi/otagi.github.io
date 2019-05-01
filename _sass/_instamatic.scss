@@ -1,0 +1,43 @@
+section#instamatic-photos {
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  margin: 0 auto;
+
+  header {
+    grid-column: 1 / -1;
+    text-align: center;
+  }
+
+  article {
+    figure {
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: start;
+      height: 100%;
+      margin: 0;
+
+      img {
+        border-radius: 5px;
+        margin: 0;
+      }
+
+      figcaption {
+        padding: 0.5rem;
+        text-align: center;
+
+        > * {
+          font-size: 1rem;
+          margin: 0;
+        }
+
+        p, time {
+          color: #aaa;
+          display: none;
+          font-size: 0.8rem;
+        }
+      }
+    }
+  }
+}

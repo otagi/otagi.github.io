@@ -1,0 +1,25 @@
+---
+layout: default
+title: Instamatic
+---
+
+<section id="instamatic-photos">
+  <header>
+    <h1>Instamatic</h1>
+    <p>{{ site.data.media.photos.size }} photos</p>
+  </header>
+
+  {% for photo in site.data.media.photos %}
+    <article>
+      <figure>
+        <a href="/assets/{{ photo.path}}">
+          <img src="/assets/{{ photo.path}}" alt="Photo"/>
+        </a>
+        <figcaption>
+          <h2>{{ photo.caption }}</h2>
+          <p>{{ photo.location }}</p>
+          <time datetime="{{ photo.taken_at }}">{{ photo.taken_at | date: "%-d %B %Y"}}</time>
+        </figcaption>
+    </article>
+  {% endfor %}
+</section>
