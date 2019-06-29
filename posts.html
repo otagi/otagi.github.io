@@ -1,0 +1,20 @@
+---
+title: Posts
+---
+
+<header>
+  <h1>Long-form posts</h1>
+</header>
+
+<ul>
+  {% for post in site.posts %}
+  <li>
+    <time datetime="{{ post.date }}">{{ post.date | date: '%-d %B %Y' }}</time>:
+    <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+  </li>
+  {% endfor %}
+</ul>
+
+<footer>
+  <p>Subscribe <a href="{{ '/feed.xml' | prepend: site.baseurl }}">via RSS</a></p>
+</footer>

@@ -1,54 +1,108 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
-@charset "utf-8";
 
+// Layout
 
+* {
+  margin: 0;
+}
 
-// Our variables
-$base-font-family: Helvetica, Arial, sans-serif;
-$base-font-size:   16px;
-$small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.5;
+* + * {
+  margin-top: 1.5em;
+}
 
-$spacing-unit:     30px;
+figure * + * {
+  margin-top: 0;
+}
 
-$text-color:       #111;
-$background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+main > article > header > * + * {
+  margin-top: 0;
+}
 
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
+body, br, li, dt, dd, th, td, option {
+  margin-top: 0;
+}
 
-// Width of the content area
-$content-width:    800px;
+body {
+  margin: 1rem;
+}
 
-$on-palm:          600px;
-$on-laptop:        800px;
+nav ul {
+  display: flex;
+  flex-flow: row wrap;
+  list-style: none;
+  padding: 0;
 
+  li + li {
+    padding-left: 1em;
+  }
+}
 
-
-// Using media queries with like this:
-// @include media-query($on-palm) {
-//     .wrapper {
-//         padding-right: $spacing-unit / 2;
-//         padding-left: $spacing-unit / 2;
-//     }
-// }
-@mixin media-query($device) {
-    @media screen and (max-width: $device) {
-        @content;
-    }
+main > ul {
+  list-style: none;
+  padding: 0;
 }
 
 
+// Color
 
-// Import partials from `sass_dir` (defaults to `_sass`)
-@import
-        "base",
-        "layout",
-        "syntax-highlighting",
-        "about",
-        "instamatic"
-;
+* {
+  color: inherit;
+}
+
+html {
+  color: #222;
+}
+
+a {
+  color: #26c;
+}
+
+small {
+  color: #888;
+}
+
+
+// Typography & Decoration
+
+* {
+  font-family: inherit;
+  line-height: inherit;
+}
+
+html {
+  font-size: 125%;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: inherit;
+}
+
+small {
+  font-weight: lighter;
+}
+
+body > header {
+  border-bottom: solid 1px #ccc;
+}
+
+
+// Page-specific and external styles
+
+@import "instamatic";

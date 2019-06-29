@@ -18,9 +18,20 @@ section#instamatic-photos {
       height: 100%;
       margin: 0;
 
+      a img {
+        transition: all 0.2s ease;
+      }
+
+      a:hover img {
+        box-shadow: 0 0 10px #888;
+        transform: scale(1.05);
+      }
+
       img {
         border-radius: 5px;
+        display: block;
         margin: 0;
+        width: 100%;
       }
 
       figcaption {
@@ -28,14 +39,14 @@ section#instamatic-photos {
         text-align: center;
 
         > * {
-          font-size: 1rem;
+          font-size: 0.8rem;
           margin: 0;
         }
 
         p, time {
           color: #aaa;
           display: none;
-          font-size: 0.8rem;
+          font-size: 0.7rem;
         }
       }
     }
