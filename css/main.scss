@@ -49,6 +49,7 @@ main > ul {
 
 * {
   color: inherit;
+  border-color: #ccc;
 }
 
 html {
@@ -63,6 +64,24 @@ small {
   color: #888;
 }
 
+@media (prefers-color-scheme: dark) {
+  * {
+    border-color: #666;
+  }
+
+  html {
+    background-color: #1c1c1c;
+    color: #ccc;
+  }
+
+  a {
+    color: #cc6622;
+  }
+
+  small {
+    color: #888;
+  }
+}
 
 // Typography & Decoration
 
@@ -99,7 +118,8 @@ small {
 }
 
 body > header {
-  border-bottom: solid 1px #ccc;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
 }
 
 
