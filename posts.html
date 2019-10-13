@@ -9,7 +9,7 @@ title: Posts
 <ul>
   {% for post in site.posts %}
   <li>
-    <time datetime="{{ post.date }}">{{ post.date | date: '%-d %B %Y' }}</time>:
+    <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: '%-d %B %Y' }}</time>:
     <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
   </li>
   {% endfor %}
