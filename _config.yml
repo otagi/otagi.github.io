@@ -11,6 +11,7 @@ markdown: kramdown
 # Outputting
 permalink: /:categories/:title
 
+# Front matter defaults
 defaults:
   -
     scope:
