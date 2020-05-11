@@ -44,6 +44,10 @@ main > ul {
   padding: 0;
 }
 
+pre {
+  overflow-x: scroll;
+  padding: 1em;
+}
 
 // Color
 
@@ -91,8 +95,8 @@ small {
 }
 
 html {
-  font-size: 125%;
   font-family: Helvetica, Arial, sans-serif;
+  font-size: 125%;
   font-weight: 300;
   line-height: 1.5;
 }
@@ -122,7 +126,12 @@ body > header {
   border-bottom-width: 1px;
 }
 
+code, kbd, pre, samp {
+  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+  font-size: 90%;
+}
 
 // Page-specific and external styles
 
 @import "instamatic";
+@import "railscasts";
