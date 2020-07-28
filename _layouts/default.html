@@ -11,6 +11,26 @@
     <link rel="stylesheet" href="{{ '/css/main.css' | prepend: site.baseurl }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | prepend: site.baseurl | prepend: site.url }}" />
+
+    <meta name="twitter:site"    content="@otagi">
+    <meta name="twitter:creator" content="@otagi">
+    <meta name="twitter:title"   content="{{ page.title }}">
+    {% if page.summary %}
+    <meta name="twitter:description" content="{{ page.summary }}">
+    {% else %}
+    <meta name="twitter:description" content="{{ site.description }}">
+    {% endif %}
+    {% if page.image %}
+    <meta name="twitter:card"  content="summary_large_image">
+    <meta name="twitter:image" content="{{ site.url }}{{ page.image }}">
+    {% endif %}
+    {% if page.video %}
+    <meta name="twitter:card"  content="player">
+    <meta name="twitter:player" content="{{ page.video }}">
+    <meta name="twitter:player:width" content="{{ page.video_width }}">
+    <meta name="twitter:player:height" content="{{ page.video_height }}">
+    <meta name="twitter:image" content="{{ page.video_poster }}">
+    {% endif %}
   </head>
   <body>
     <header>
