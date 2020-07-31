@@ -26,10 +26,10 @@
     {% endif %}
     {% if page.video %}
     <meta name="twitter:card"  content="player">
-    <meta name="twitter:player" content="{{ page.video }}">
+    <meta name="twitter:player" content="{{ site.url }}{{ page.video }}">
     <meta name="twitter:player:width" content="{{ page.video_width }}">
     <meta name="twitter:player:height" content="{{ page.video_height }}">
-    <meta name="twitter:image" content="{{ page.video_poster }}">
+    <meta name="twitter:image" content="{{ site.url }}{{ page.video_poster }}">
     {% endif %}
   </head>
   <body>
