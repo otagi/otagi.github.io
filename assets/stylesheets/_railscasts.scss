@@ -36,7 +36,7 @@ $railscasts-diff-remove-bg-color          : #660000;
 $railscasts-diff-header                   : #2F33AB;
 
 pre {
-  background-color: #232323;
+  background-color: $railscasts-bg-color;
   color: $railscasts-color;
 
   .gd {
