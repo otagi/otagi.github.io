@@ -32,3 +32,6 @@ defaults:
       type: "drafts"
     values:
       layout: "post"
+
+plugins:
+  - jekyll-assets
