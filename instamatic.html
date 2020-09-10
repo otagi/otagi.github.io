@@ -13,8 +13,8 @@ title: Instamatic
   {% for photo in site.data.media.instamatic-photos %}
   <article>
     <figure>
-      <a href="{% asset 'instamatic/{{ photo.path}}' @path %}">
-        <img src="{% asset 'instamatic/{{ photo.path}}' @path %}" alt="Photo"/>
+      <a href="/assets/images/instamatic/{{ photo.path }}">
+        <img src="/assets/images/instamatic/{{ photo.path }}" alt="Photo"/>
       </a>
       <figcaption>
         <h2>{{ photo.caption }}</h2>

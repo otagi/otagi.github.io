@@ -33,5 +33,7 @@ defaults:
     values:
       layout: "post"
 
-plugins:
-  - jekyll-assets
+sass:
+  sass_dir: assets/stylesheets
+
+theme: null
