@@ -8,7 +8,8 @@
     <title>{% if page.title %}{{ page.title }} — {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
     <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
-    <link rel="stylesheet" href="{{ '/css/main.css' | prepend: site.baseurl }}">
+    <link rel="stylesheet" title="Typewriter" href="{% asset_path typewriter.css %}">
+
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | prepend: site.baseurl | prepend: site.url }}" />
 
@@ -26,10 +27,10 @@
     {% endif %}
     {% if page.video %}
     <meta name="twitter:card"  content="player">
-    <meta name="twitter:player" content="{{ site.url }}{{ page.video }}">
+    <meta name="twitter:player" content="{{ site.url }}{% asset_path '{{ page.video }}' %}">
     <meta name="twitter:player:width" content="{{ page.video_width }}">
     <meta name="twitter:player:height" content="{{ page.video_height }}">
-    <meta name="twitter:image" content="{{ site.url }}{{ page.video_poster }}">
+    <meta name="twitter:image" content="{{ site.url }}{% asset_path '{{ page.video_poster }}' %}">
     {% endif %}
   </head>
   <body>
