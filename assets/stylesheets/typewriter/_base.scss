@@ -51,6 +51,10 @@ pre {
   padding: 1em;
 }
 
+blockquote {
+  border-left: solid 5px;
+  padding-left: 1em;
+}
 
 main video {
   width: 100%;
@@ -84,6 +88,10 @@ small {
   background-color: #eee;
 }
 
+blockquote {
+  border-color: #ddd;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     background-color: #1c1c1c;
@@ -101,6 +109,10 @@ small {
 
   :not(pre) > code {
     background-color: #333;
+  }
+
+  blockquote {
+    border-color: #444;
   }
 }
 
