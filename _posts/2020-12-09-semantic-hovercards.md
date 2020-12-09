@@ -33,7 +33,7 @@ Using a `class` *and* a `data` attribute might seem redundant at first. I could 
 
 The `article` tag is ideal for content that makes sense on its own, as a unit. A good candidate for our shoe description.
 
-Note that both `hovercard` and `shoe` classes describes *what* the element is, not *how it looks*.
+Note that both `hovercard` and `shoe` classes describe *what* the element is, not *how it looks*.
 
 Display this as is in the browser without any style, and it already makes sense, because the content is hierarchically structured with meaningful tags. Show the code to a human, and they understand in a fraction of a second what it’s all about. Give it to someone with bad vision, and their screen reader will have no problem finding the most relevant information to enunciate.
 
