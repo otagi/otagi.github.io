@@ -123,9 +123,9 @@ That’s it, really. A few lines of code to update a page element. No need to wr
 [ts]: https://turbo.hotwired.dev/handbook/streams
 
 [app]: https://github.com/otagi/turbo-spec
-[feature]: https://github.com/otagi/turbo-spec/spec/system/rodents_counter_spec.rb
-[inline_active_job.rb]: https://github.com/otagi/turbo-spec/spec/support/inline_active_job.rb
-[capybara.rb]: https://github.com/otagi/turbo-spec/spec/support/capybara.rb
-[rodent.rb]: https://github.com/otagi/turbo-spec/app/models/rodent.rb
-[show.html.slim]: https://github.com/otagi/turbo-spec/app/views/dashboard/show.html.slim
-[_rodents_counter.html.slim]: https://github.com/otagi/turbo-spec/app/views/dashboard/_rodents_counter.html.slim
+[feature]: https://github.com/otagi/turbo-spec/blob/main/spec/system/rodents_counter_spec.rb
+[inline_active_job.rb]: https://github.com/otagi/turbo-spec/blob/main/spec/support/inline_active_job.rb
+[capybara.rb]: https://github.com/otagi/turbo-spec/blob/main/spec/support/capybara.rb
+[rodent.rb]: https://github.com/otagi/turbo-spec/blob/main/app/models/rodent.rb
+[show.html.slim]: https://github.com/otagi/turbo-spec/blob/main/app/views/dashboard/show.html.slim
+[_rodents_counter.html.slim]: https://github.com/otagi/turbo-spec/blob/main/app/views/dashboard/_rodents_counter.html.slim
