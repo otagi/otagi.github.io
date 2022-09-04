@@ -37,3 +37,16 @@ sass:
   sass_dir: assets/stylesheets
 
 theme: null
+
+plugins:
+  - jekyll-optional-front-matter
+  - jekyll-titles-from-headings
+
+optional_front_matter:
+  enabled: true
+  remove_originals: true
+
+titles_from_headings:
+  enabled: true
+  strip_title: true
+  collections: true
