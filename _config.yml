@@ -38,6 +38,20 @@ sass:
 
 theme: null
 
+# Include these files/folders that are excluded by default
+include: [ "/.well-known" ]
+
+# Exclude these files from production site
+exclude:
+  - CHANGELOG.md
+  - CNAME
+  - Dockerfile
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - Vagrantfile
+
 plugins:
   - jekyll-optional-front-matter
   - jekyll-titles-from-headings
