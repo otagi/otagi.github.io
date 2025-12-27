@@ -18,12 +18,14 @@ defaults:
       path: ""
       type: "pages"
     values:
+      lang: "en"
       layout: "default"
   -
     scope:
       path: ""
       type: "posts"
     values:
+      lang: "en"
       layout: "post"
       category: "posts"
   -
@@ -31,6 +33,7 @@ defaults:
       path: "drafts"
       type: "drafts"
     values:
+      lang: "en"
       layout: "post"
 
 sass:
