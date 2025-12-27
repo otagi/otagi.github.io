@@ -98,10 +98,19 @@ body {
 
   figure {
     padding: 1em;
-    text-align: center;
 
-    > img + img {
+    p:has(img) {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--block-gap);
+    }
+
+    img + img {
       margin-block-start: 0;
+    }
+
+    figcaption {
+      text-align: center;
     }
   }
 
