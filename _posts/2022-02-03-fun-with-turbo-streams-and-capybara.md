@@ -1,5 +1,6 @@
 ---
 title: Fun with Turbo Streams and Capybara
+tags: Code
 ---
 
 Using and testing [Turbo Streams][ts] in a [Rails][rails] app is quite fun, but comes with its share of quirks, which are not always well documented.

@@ -48,7 +48,6 @@ html {
 a, a:visited {
   color: var(--link-color);
 
-
   &:hover {
     color: var(--link-hover-color);
   }
@@ -84,7 +83,7 @@ body > footer {
   color: var(--secondary-text-color);
 }
 
-article header :not(h1, h2, h3, h4, h5, h6) {
+article header :not(h1, h2, h3, h4, h5, h6, a) {
   color: var(--secondary-text-color);
 }
 

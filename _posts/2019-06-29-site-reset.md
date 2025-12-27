@@ -1,4 +1,5 @@
 ---
+tags: Code
 ---
 
 I’m a big proponent of clean semantic HTML, paired with CSS selectors based on tag names and attributes rather than classes. Sadly, my own website was based on a default GitHub Pages layout that didn't really follow these good principles.

@@ -1,5 +1,6 @@
 ---
 lang: fr
+tags: Mobility
 ---
 
 # Piste ou bande cyclable ?

@@ -1,3 +1,7 @@
+---
+tags: Web
+---
+
 # The Google Web
 
 Open Web Advocacy posted [Japan: Apple Must Lift Browser Engine Ban by December](https://open-web-advocacy.org/blog/japan-apple-must-lift-engine-ban-by-december/), commenting that it “is a major step forward for browser competition”.

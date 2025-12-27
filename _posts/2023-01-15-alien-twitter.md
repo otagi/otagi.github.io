@@ -1,3 +1,7 @@
+---
+tags: Social
+---
+
 # Alien Twitter 
 
 A mashup experiment for funsies. Published as a farewell tweet after the platform cut access to third-party clients on 13/01/2023. 

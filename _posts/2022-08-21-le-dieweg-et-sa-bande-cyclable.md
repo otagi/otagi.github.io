@@ -1,5 +1,6 @@
 ---
 lang: fr
+tags: Mobility
 ---
 
 # Le Dieweg et sa bande cyclable

@@ -1,5 +1,6 @@
 ---
 title: Shell aliases
+tags: Code
 ---
 
 Do you often type the same boring commands in a [terminal](https://en.wikipedia.org/wiki/Terminal_emulator) window? Do you get tired of typing them over and over again? 

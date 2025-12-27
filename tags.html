@@ -1,0 +1,26 @@
+---
+title: Tags
+---
+
+<header>
+  <h1>Long-form posts by tags</h1>
+</header>
+
+{% for tag in site.tags %}
+<section>
+  <h2 id={{ tag[0] | slugify }}>#{{ tag[0] }}</h2>
+  <ul>
+    {% assign sorted_posts = tag[1] | sort | reverse %}
+    {% for post in sorted_posts %}
+    <li>
+      <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: '%-d %B %Y' }}</time>:
+      <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endfor %}
+
+<footer>
+  <p>Subscribe <a href="{{ '/feed.xml' | prepend: site.baseurl }}">via RSS</a></p>
+</footer>

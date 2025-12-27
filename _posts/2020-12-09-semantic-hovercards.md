@@ -1,5 +1,6 @@
 ---
 title: Semantic Hovercards
+tags: Code
 ---
 
 Matt Swanson [wrote an excellent article](https://boringrails.com/articles/hovercards-stimulus/) showing how to load a Rails view into a hovercard with StimulusJS.

@@ -1,5 +1,6 @@
 ---
 title: Migrating from CarrierWave to Active Storage
+tags: Code
 ---
 
 The story of how we moved all our uploaded files from [CarrierWave](https://github.com/carrierwaveuploader/carrierwave) to [Active Storage](https://guides.rubyonrails.org/active_storage_overview.html) in our big monolithic [Ruby on Rails](https://www.rubyonrails.org/) app.
@@ -128,4 +129,3 @@ end
 Thanks to Marie Hargitt for her help on running this lengthy migration process.
 
 Thanks to Simon Schoeters for his support during the development, and the editing help on this article.
-
