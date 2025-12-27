@@ -2,11 +2,55 @@ source 'https://rubygems.org'
 
 ruby '3.4.5'
 
-gem 'github-pages'
-gem 'jekyll-figure'
+gem 'jekyll'
 
-gem "base64", "~> 0.3.0"
-gem "bigdecimal", "~> 3.2"
-gem "csv", "~> 3.3"
-gem "logger", "~> 1.7"
-gem "webrick", "~> 1.7"
+group :jekyll_plugins do
+  # from github-pages
+  gem 'jekyll-avatar'
+  gem 'jekyll-coffeescript'
+  gem 'jekyll-commonmark-ghpages'
+  gem 'jekyll-default-layout'
+  gem 'jekyll-feed'
+  gem 'jekyll-gist'
+  gem 'jekyll-github-metadata'
+  gem 'jekyll-include-cache'
+  gem 'jekyll-mentions'
+  gem 'jekyll-optional-front-matter'
+  gem 'jekyll-paginate'
+  gem 'jekyll-readme-index'
+  gem 'jekyll-redirect-from'
+  gem 'jekyll-relative-links'
+  gem 'jekyll-remote-theme'
+  gem 'jekyll-sass-converter'
+  gem 'jekyll-seo-tag'
+  gem 'jekyll-sitemap'
+  gem 'jekyll-swiss'
+  gem 'jekyll-theme-architect'
+  gem 'jekyll-theme-cayman'
+  gem 'jekyll-theme-dinky'
+  gem 'jekyll-theme-hacker'
+  gem 'jekyll-theme-leap-day'
+  gem 'jekyll-theme-merlot'
+  gem 'jekyll-theme-midnight'
+  gem 'jekyll-theme-minimal'
+  gem 'jekyll-theme-modernist'
+  gem 'jekyll-theme-primer'
+  gem 'jekyll-theme-slate'
+  gem 'jekyll-theme-tactile'
+  gem 'jekyll-theme-time-machine'
+  gem 'jekyll-titles-from-headings'
+
+  # not in the safelist
+  gem 'jekyll-figure'
+end
+
+gem 'jemoji'
+gem 'kramdown'
+gem 'kramdown-parser-gfm'
+gem 'liquid'
+gem 'mercenary'
+gem 'minima'
+gem 'nokogiri'
+gem 'rouge'
+gem 'terminal-table'
+gem 'webrick'
