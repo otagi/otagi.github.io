@@ -2,7 +2,10 @@ source 'https://rubygems.org'
 
 ruby '3.4.5'
 
-gem 'github-pages', group: :jekyll_plugins
+group :jekyll_plugins do
+  gem 'github-pages'
+  gem 'jekyll-figure'
+end
 
 gem "base64", "~> 0.3.0"
 gem "bigdecimal", "~> 3.2"

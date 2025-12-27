@@ -58,6 +58,10 @@ exclude:
 plugins:
   - jekyll-optional-front-matter
   - jekyll-titles-from-headings
+  - jekyll-figure
+
+jekyll-figure:
+  paragraphs: true
 
 optional_front_matter:
   enabled: true
