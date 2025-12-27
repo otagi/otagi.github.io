@@ -55,6 +55,8 @@ exclude:
   - README.md
   - Vagrantfile
 
+safe: false
+
 plugins:
   - jekyll-optional-front-matter
   - jekyll-titles-from-headings
