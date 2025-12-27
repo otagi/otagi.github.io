@@ -17,6 +17,8 @@ section#instamatic-photos {
       justify-content: start;
       height: 100%;
       margin: 0;
+      padding: 0;
+      border: none;
 
       a img {
         transition: all 0.2s ease;
@@ -35,11 +37,12 @@ section#instamatic-photos {
       }
 
       figcaption {
+        margin: 0;
         padding: 0.5rem;
         text-align: center;
 
         > * {
-          font-size: 0.8rem;
+          font-size: 1rem;
           margin: 0;
         }
 

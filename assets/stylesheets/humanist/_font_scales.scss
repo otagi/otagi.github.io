@@ -1,0 +1,11 @@
+/* Font scale factors for `font-size`, from https://typescale.com/ */
+:root {
+  --font-scale-minor-second: 1.067;
+  --font-scale-major-second: 1.125;
+  --font-scale-minor-third: 1.200;
+  --font-scale-major-third: 1.250;
+  --font-scale-perfect-fourth: 1.333;
+  --font-scale-augmented-fourth: 1.414;
+  --font-scale-perfect-fifth: 1.500;
+  --font-scale-golden-ratio: 1.618;
+}
