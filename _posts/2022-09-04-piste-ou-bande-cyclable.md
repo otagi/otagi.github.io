@@ -1,24 +1,39 @@
+---
+lang: fr
+---
+
 # Piste ou bande cyclable ?
 
 Doit-on dire *piste* ou *bande* cyclable pour parler d’un tracé sur la chaussée réservé aux cyclistes et délimité par des traits discontinus ?
 
 Le code de la route belge parle bien de bandes pour toutes les délimitations de voies peintes sur le macadam :
 
-> [Article 72](https://www.code-de-la-route.be/fr/reglementation/1976101105~hra8v386pu#uubflmlajy). Marques longitudinales indiquant les **bandes de circulation**  
-> ![Ligne continue](https://www.code-de-la-route.be/media/image/orig/2cf593789e5f2199071ed98cc4dc6fc27abf2aa0.jpg) ![Ligne discontinue](https://www.code-de-la-route.be/media/image/orig/5695984a2793f19f6e61ec9b39426ee1a249465f.jpg) ![Lignes juxtaposées](https://www.code-de-la-route.be/media/image/orig/68088b621b23cbd563a5788a949aa03210f08d25.jpg) ![Larges traits discontinus](https://www.code-de-la-route.be/media/image/orig/eafac0178e8644967c4d77f1e77d3b2e07f76780.jpg)  
 
+{% figure 
+  [caption: "[Article 72](https://www.code-de-la-route.be/fr/reglementation/1976101105~hra8v386pu#uubflmlajy). Marques longitudinales indiquant les **bandes de circulation**"] %}
+  
+  ![Ligne continue](https://www.code-de-la-route.be/media/image/orig/2cf593789e5f2199071ed98cc4dc6fc27abf2aa0.jpg) 
+  ![Ligne discontinue](https://www.code-de-la-route.be/media/image/orig/5695984a2793f19f6e61ec9b39426ee1a249465f.jpg) 
+  ![Lignes juxtaposées](https://www.code-de-la-route.be/media/image/orig/68088b621b23cbd563a5788a949aa03210f08d25.jpg) ![Larges traits discontinus](https://www.code-de-la-route.be/media/image/orig/eafac0178e8644967c4d77f1e77d3b2e07f76780.jpg)  
+{% endfigure %}
+  
 Autos, motos, bus, tracteurs, tous les usagers roulent ou s’arrêtent en urgence sur des *bandes*.
 
 Tous, sauf les cyclistes, qui ont subitement droit à l’appellation *piste* :
 
-> [Article 74](https://www.code-de-la-route.be/fr/reglementation/1976101105~hra8v386pu#bogok2zg5p). Marques longitudinales indiquant une **piste cyclable**  
-> ![Piste cyclable](https://www.code-de-la-route.be/media/image/orig/39ed2e19746f9858780140b049332d0d04febf87.jpg)  
+{% figure 
+  [caption: "[Article 74](https://www.code-de-la-route.be/fr/reglementation/1976101105~hra8v386pu#bogok2zg5p). Marques longitudinales indiquant une **piste cyclable**"] %}
+    
+  ![Piste cyclable](https://www.code-de-la-route.be/media/image/orig/39ed2e19746f9858780140b049332d0d04febf87.jpg)  
+{% endfigure %}
 
 Et la définition est encore plus étonnante, lorsqu’on constate la facilité avec laquelle les véhicules lourds débordent régulièrement sur ces « pistes » :
 
-> [Article 2](https://www.code-de-la-route.be/fr/reglementation/1976101105~hra8v386pu#ugbqbbunmj). Définitions  
-> Le terme « bande de circulation » désigne toute partie d'une chaussée divisée, dans le sens longitudinal […]  
-> **La piste cyclable ne fait pas partie de la chaussée.**
+{% figure 
+  [caption: "[Article 2](https://www.code-de-la-route.be/fr/reglementation/1976101105~hra8v386pu#ugbqbbunmj). Définitions"] %}
+
+  > Le terme « bande de circulation » désigne toute partie d'une chaussée divisée, dans le sens longitudinal […] **La piste cyclable ne fait pas partie de la chaussée.**
+{% endfigure %}
 
 Mais pourquoi râler sur un pareil détail de langage ? Parce qu’il a son importance lorsqu’il s’agit de distinguer les voies peintes de celles séparées.
 

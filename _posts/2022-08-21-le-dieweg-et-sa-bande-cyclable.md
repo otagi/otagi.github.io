@@ -1,6 +1,8 @@
 ---
-title: Le Dieweg et sa bande cyclable
+lang: fr
 ---
+
+# Le Dieweg et sa bande cyclable
 
 *Lettre ouverte à [Thibaud Wyngaard](https://thibaudwyngaard.be/)*
 
@@ -40,4 +42,4 @@ Merci à vous.
 
 [^2]: Le nombre de réactions à [mon tweet du 14 août](https://twitter.com/otagi/status/1558915149142040576) allant dans ce sens me conforte dans l’idée que je ne suis pas le seul à être indigné par la situation. 
 
-[^3]: Certes, l’immeuble Constellations ne semble pas avoir de garage souterrain, contrairement à son voisin Cherridreux. Mais le choix des résidents de garder les larges allées et pelouses de leur parc privé vierges de tout véhicule ne doit pas se répercuter sur l’espace public. 
+[^3]: Certes, l’immeuble Constellations ne semble pas avoir de garage souterrain, contrairement à son voisin Cherridreux. Mais le choix des résidents de garder les larges allées et pelouses de leur parc privé vierges de tout véhicule ne doit pas se répercuter sur l’espace public.

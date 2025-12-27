@@ -4,9 +4,7 @@ title: Semantic Hovercards
 
 Matt Swanson [wrote an excellent article](https://boringrails.com/articles/hovercards-stimulus/) showing how to load a Rails view into a hovercard with StimulusJS.
 
-To which [I replied](https://twitter.com/otagi/status/1336058070644961284):
-
-> Great Stimulus tutorial. (Except for the horrendous HTML markup.)
+To which [I replied](https://twitter.com/otagi/status/1336058070644961284): <q>Great Stimulus tutorial. (Except for the horrendous HTML markup.)</q>
 
 That was rude and uncalled for. My apologies, Matt. I should have said that I am not a fan of atomic CSS, and personally prefer semantic syntaxes.
 
