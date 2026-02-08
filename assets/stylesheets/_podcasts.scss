@@ -43,7 +43,7 @@ section#podcasts {
       img {
         aspect-ratio: 1;
         object-fit: cover;
-        border: solid 1px #eee;
+        border: solid 1px var(--border-color);
         border-radius: 5px;
         display: block;
         margin: 0;
