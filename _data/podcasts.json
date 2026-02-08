@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Accidental Tech Podcast",
+    "url": "https://atp.fm",
+    "cover": "https://cdn.atp.fm/artwork",
+    "description": "Three nerds discussing tech, Apple, programming, and loosely related matters. Hosted by Marco Arment, Casey Liss, and John Siracusa.",
+    "tags": ["Tech"]
+  },
+  {
+    "name": "The Climate Denier's Playbook",
+    "url": "https://nebula.tv/climatedeniersplaybook/",
+    "cover": "https://images.nebula.tv/ef21a17c-9a8c-4e39-b96e-8d8641b55cdf?format=avif&width=480",
+    "description": "From the minds that brought you Climate Town, comes… a podcast that's suspiciously similar to Climate Town. With Rollie Williams and Nicole Conlan.",
+    "tags": ["Climate"]
+  },
+  {
+    "name": "Comfort Zone",
+    "url": "https://www.macstories.net/comfort-zone/",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/ee/6b/fc/ee6bfc7a-17c9-60b8-59d3-b99cca1cadb7/mza_9444665137197721934.png/1200x1200bf-60.jpg",
+    "description": "A weekly podcast that pushes its hosts outside of their, well, comfort zone hosted by Christopher Lawley, Niléane Dorffer, and Matt Birchler.",
+    "tags": ["Tech"]
+  },
+  {
+    "name": "Curious Cases",
+    "url": "https://www.bbc.co.uk/programmes/b07dx75g",
+    "cover": "https://ichef.bbci.co.uk/images/ic/480x270/p0m1wtpt.jpg.webp",
+    "description": "Hannah Fry and Dara Ó Briain tackle listeners’ conundrums with the power of science!",
+    "tags": ["Science"]
+  },
+  {
+    "name": "Hello Internet",
+    "url": "https://www.hellointernet.fm/landing",
+    "cover": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Hello_Internet_Logo.svg/2560px-Hello_Internet_Logo.svg.png",
+    "description": "A podcast from CGP Grey and Brady Haran where they'll be talking about YouTube, life, work, whatever.",
+    "tags": ["TwoDudesTalking"]
+  },
+  {
+    "name": "The Infinite Monkey Cage",
+    "url": "https://www.bbc.co.uk/programmes/b00snr0w",
+    "cover": "https://ichef.bbci.co.uk/images/ic/1008x567/p0mr5tky.jpg",
+    "description": "Brian Cox and Robin Ince host a witty, irreverent look at the world through scientists' eyes.\n\n_Note: In December 2025, Robin Ince was asked by the BBC to tone down his off-duty pro-trans rights position. He refused, and decided to quit the show instead. [Wikipedia](https://en.wikipedia.org/wiki/Robin_Ince#Radio)_",
+    "tags": ["Science"]
+  },
+  {
+    "name": "Lateral",
+    "url": "https://lateralcast.com",
+    "cover": "https://megaphone.imgix.net/podcasts/2a3f4416-77e3-11ee-8e56-f7ac65d137ba/image/b722eeab8db682b441e1a0c471c9f92c.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
+    "description": "Comedy panel game podcast about weird questions with wonderful answers, hosted by Tom Scott.",
+    "tags": ["Game"]
+  },
+  {
+    "name": "The Layover",
+    "url": "https://nebula.tv/thelayover/",
+    "cover": "https://images.nebula.tv/89e307bb-e5c4-4fce-904b-532c40b2ef8f?format=avif&width=480",
+    "description": "The Layover is Jet Lag: The Game's Nebula exclusive podcast where Ben, Sam, Adam, and guests sit down to discuss the latest episodes.",
+    "tags": ["Game"]
+  },
+  {
+    "name": "The Unmade Podcast",
+    "url": "https://www.unmade.fm/about",
+    "cover": "https://timhein.com.au/wp-content/uploads/2018/05/unmadelogo_square.jpg",
+    "description": "Tim and Brady discuss ideas for podcasts that they will (probably) never make.",
+    "tags": ["TwoDudesTalking"]
+  },
+  {
+    "name": "The Urbanist Agenda",
+    "url": "https://nebula.tv/agenda/",
+    "cover": "https://images.nebula.tv/b45dba21-877b-4f22-a56e-35db7cac362d?format=avif&width=480",
+    "description": "A podcast by the creator of the popular YouTube channel Not Just Bikes, The Urbanist Agenda is an exploration of the latest topics in urban planning and urban mobility from your favourite urbanist YouTubers.",
+    "tags": ["Urbanism"]
+  }
+]
