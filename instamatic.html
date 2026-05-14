@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Instamatic
+title: Instagram Archive
 ---
 
 <section id="instamatic-photos">
   <header>
-    <h1>Instamatic</h1>
-    <small>An experiment in ditching surveillance capitalism services</small>
+    <h1>Instagram Archive</h1>
+    <small>A long time ago, I used to post photos on Instagram. They are now preserved here for sanity and posterity.</small>
     <p>{{ site.data.media.instamatic-photos.size }} photos</p>
   </header>
 
@@ -18,8 +18,11 @@ title: Instamatic
       </a>
       <figcaption>
         <h2>{{ photo.caption }}</h2>
-        <p>{{ photo.location }}</p>
-        <time datetime="{{ photo.taken_at }}">{{ photo.taken_at | date: "%-d %B %Y"}}</time>
+        <p>
+          <time datetime="{{ photo.taken_at }}">{{ photo.taken_at | date: "%-d %B %Y"}}</time>
+          <br/>
+          <span>{{ photo.location }}</span>
+        </p>
       </figcaption>
   </article>
   {% endfor %}
