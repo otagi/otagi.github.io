@@ -56,6 +56,13 @@
     "tags": ["Game"]
   },
   {
+    "name": "The Rest is Science",
+    "url": "https://therestis.com/science",
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/10/e6/4d/10e64d1a-6747-2500-6add-ca04616d5686/mza_1900430593839428227.jpg/600x600bb.webp",
+    "description": "Hannah Fry and Michael Stevens lure you in with simple premises to explore weird scientific questions.",
+    "tags": ["Science"]
+  },
+  {
     "name": "The Unmade Podcast",
     "url": "https://www.unmade.fm/about",
     "cover": "https://timhein.com.au/wp-content/uploads/2018/05/unmadelogo_square.jpg",
