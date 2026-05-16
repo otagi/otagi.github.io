@@ -1,6 +1,12 @@
 section#podcasts {
+  --items-margin: 2rem;
+  --thumbnail-border-radius: 8px;
+  --thumbnail-min-width: 16px;
+  --thumbnail-max-width: 0.17fr;
+  --thumbnail-margin: 1em;
+
   display: grid;
-  grid-gap: 2rem;
+  gap: var(--items-margin);
   margin: 0 auto;
 
   header {
@@ -8,62 +14,76 @@ section#podcasts {
     text-align: center;
   }
 
-  body > main header + article {
+  body > main header + ul {
     margin-block-start: 0;
   }
 
-  article {
+  ul {
+    display: grid;
+    gap: var(--items-margin);
+    list-style: none;
     margin: 0;
+    padding: 0;
 
-    figure {
-      align-items: left;
-      display: flex;
-      flex-direction: row;
-      justify-content: start;
-      gap: 1em;
-      height: 100%;
+    li {
       margin: 0;
-      padding: 0;
-      border: none;
 
-      a {
-        flex: 0 1 auto;
-        margin-inline: 0;
-      }
-
-      a img {
-        transition: all 0.2s ease;
-      }
-
-      a:hover img {
-        box-shadow: 0 0 10px var(--link-color);
-        transform: scale(1.05);
-      }
-
-      img {
-        aspect-ratio: 1;
-        object-fit: cover;
-        border: solid 1px var(--border-color);
-        border-radius: 5px;
-        display: block;
-        margin: 0;
-        width: 100px;
-      }
-
-      figcaption {
+      figure {
+        display: grid;
+        grid-template-columns:
+          minmax(var(--thumbnail-min-width), var(--thumbnail-max-width))
+          1fr;
+        gap: var(--thumbnail-margin);
+        height: 100%;
         margin: 0;
         padding: 0;
-        text-align: left;
-        vertical-align: middle;
+        border: none;
 
-        > * {
-          margin: 0;
+        > a {
+          margin-inline: 0;
         }
 
-        .tag {
-          color: var(--secondary-heading-text-color);
-          font-family: var(--heading-font-family);
-          font-size: calc(1rem / var(--font-scale));
+        > a img {
+          aspect-ratio: 1;
+          object-fit: cover;
+          border: solid 1px var(--border-color);
+          border-radius: var(--thumbnail-border-radius);
+          display: block;
+          margin: 0;
+          width: 100%;
+          transition: all 0.2s ease;
+        }
+
+        > a:hover img {
+          box-shadow: 0 0 10px var(--link-color);
+          transform: scale(1.05);
+        }
+
+        figcaption {
+          margin: 0;
+          padding: 0;
+          text-align: left;
+          vertical-align: middle;
+
+          > * {
+            margin: 0;
+          }
+
+          /* Align top of h2 to top of thumbnail */
+          h2 {
+            padding-bottom: 0.25em;
+            line-height: 1em;
+
+            a {
+              line-height: 1em;
+            }
+          }
+
+          .tag {
+            color: var(--secondary-heading-text-color);
+            font-family: var(--heading-font-family);
+            font-size: calc(1rem / var(--font-scale));
+          }
         }
       }
     }

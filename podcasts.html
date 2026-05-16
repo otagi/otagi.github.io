@@ -8,25 +8,27 @@ title: Podcasts
     <small>A curated list of worthy podcasts</small>
   </header>
 
-  {% for podcast in site.data.podcasts %}
-  <article id="{{ podcast.name | slugify }}">
-    <figure>
-      <a href="{{ podcast.url }}">
-        <img src="{{ podcast.cover }}" alt="{{ podcast.name }} cover"/>
-      </a>
-      <figcaption>
-        <h2><a href="{{ podcast.url }}">{{ podcast.name }}</a></h2>
+  <ul>
+    {% for podcast in site.data.podcasts %}
+    <li id="{{ podcast.name | slugify }}">
+      <figure>
+        <a href="{{ podcast.url }}">
+          <img src="{{ podcast.cover }}" alt="{{ podcast.name }} cover"/>
+        </a>
+        <figcaption>
+          <h2><a href="{{ podcast.url }}">{{ podcast.name }}</a></h2>
 
-        <p>{{ podcast.description | markdownify }}</p>
+          <p>{{ podcast.description | markdownify }}</p>
 
-        {% unless podcast.tags == empty %}
-        <p>
-          {% for tag in podcast.tags %}
-          <span class="tag">#{{ tag }}</span>
-          {% endfor %}
-        </p>
-        {% endunless %}
-      </figcaption>
-  </article>
-  {% endfor %}
+          {% unless podcast.tags == empty %}
+          <p>
+            {% for tag in podcast.tags %}
+            <span class="tag">#{{ tag }}</span>
+            {% endfor %}
+          </p>
+          {% endunless %}
+        </figcaption>
+      </li>
+    {% endfor %}
+  </ul>
 </section>
