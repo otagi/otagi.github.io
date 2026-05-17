@@ -30,7 +30,6 @@ body {
   > main {
     max-width: var(--content-width);
     flex: 1 0 auto;
-    align-self: left;
     padding-block: var(--block-gap);
     width: 100%;
 

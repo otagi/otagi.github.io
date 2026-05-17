@@ -1,5 +1,6 @@
-// Jakob Lægdsmand’s Railscasts Pygment theme (slightly modified)
-// https://jakoblaegdsmand.com/en/blog/rouge-railscasts-theme-in-css/
+/* Jakob Lægdsmand’s Railscasts Pygment theme (slightly modified)
+   https://jakoblaegdsmand.com/en/blog/rouge-railscasts-theme-in-css/
+*/
 
 :root {
   --railscasts-color                         : #E6E1DC;
