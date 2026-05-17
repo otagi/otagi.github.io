@@ -3,27 +3,26 @@ layout: default
 title: Instagram Archive
 ---
 
-<section class="photos">
+<section>
   <header>
     <h1>Instagram Archive</h1>
     <small>A long time ago, I used to post photos on Instagram. They are now preserved here for sanity and posterity.</small>
     <p>{{ site.data.photos.instamatic.size }} photos</p>
   </header>
 
-  {% for photo in site.data.photos.instamatic %}
-  <article>
-    <figure>
-      <a href="/assets/images/instamatic/{{ photo.path }}">
-        <img src="/assets/images/instamatic/{{ photo.path }}" alt="Photo"/>
-      </a>
-      <figcaption>
-        <h2>{{ photo.caption }}</h2>
-        <p>
-          <time datetime="{{ photo.taken_at }}">{{ photo.taken_at | date: "%-d %B %Y"}}</time>
-          <br/>
-          <span>{{ photo.location }}</span>
-        </p>
-      </figcaption>
-  </article>
-  {% endfor %}
+  <ul class="photos">
+    {% for photo in site.data.photos.instamatic %}
+    <li>
+      <figure>
+        <a href="/assets/images/instamatic/{{ photo.path }}">
+          <img src="/assets/images/instamatic/{{ photo.path }}" alt="Photo"/>
+        </a>
+        <figcaption>
+          <h2>{{ photo.caption }}</h2>
+          <p><time datetime="{{ photo.taken_at }}">{{ photo.taken_at | date: "%-d %B %Y"}}</time></p>
+          <p>{{ photo.location }}</p>
+        </figcaption>
+    </li>
+    {% endfor %}
+  </ul>
 </section>

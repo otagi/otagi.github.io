@@ -1,54 +1,75 @@
-section.photos {
+@import "colors.css";
+@import "typography.css";
+
+section:has(.photos) {
   display: grid;
-  grid-gap: 2rem;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  margin: 0 auto;
+  gap: 2rem;
 
   header {
-    grid-column: 1 / -1;
     text-align: center;
   }
 
-  article {
-    figure {
-      align-items: center;
-      display: flex;
-      flex-direction: column;
-      justify-content: start;
-      height: 100%;
-      margin: 0;
-      padding: 0;
-      border: none;
+  ul.photos {
+    --photos-margin: 2rem;
+    --photos-min-width: 200px;
+    --photos-hover-shadow-scale: 1.05;
+    --photos-hover-shadow-size: 10px;
+    --photos-hover-shadow-color: var(--link-hover-color);
+    --photos-border-radius: 8px;
 
-      a img {
-        transition: all 0.2s ease;
-      }
+    list-style: none;
+    margin: 0;
+    padding: 0;
 
-      a:hover img {
-        box-shadow: 0 0 10px #888;
-        transform: scale(1.05);
-      }
+    display: grid;
+    gap: var(--photos-margin);
+    grid-template-columns: repeat(auto-fit, minmax(var(--photos-min-width), 1fr));
 
-      img {
-        border-radius: 5px;
-        display: block;
+    li {
+      figure {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        height: 100%;
         margin: 0;
-        width: 100%;
-      }
+        padding: 0;
+        border: none;
 
-      figcaption {
-        margin: 0;
-        padding: 0.5rem;
-        text-align: center;
-
-        > * {
-          font-size: 1rem;
-          margin: 0;
+        a img {
+          transition: all 0.2s ease;
         }
 
-        p {
-          color: #666;
-          font-size: 0.7rem;
+        a:hover img {
+          box-shadow: 0 0 var(--photos-hover-shadow-size) var(--photos-hover-shadow-color);
+          transform: scale(var(--photos-hover-shadow-scale));
+        }
+
+        img {
+          border-radius: var(--photos-border-radius);
+          display: block;
+          margin: 0;
+          width: 100%;
+        }
+
+        figcaption {
+          margin: 0;
+          padding: 0.5rem;
+          text-align: center;
+
+          > * {
+            margin: 0;
+          }
+
+          h2 {
+            font-size: 1rem;
+          }
+
+          p {
+            color: var(--secondary-text-color);
+            line-height: 1em;
+            font-size: calc(1rem / var(--font-scale) / var(--font-scale));
+          }
         }
       }
     }
