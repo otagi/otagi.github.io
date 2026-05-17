@@ -7,10 +7,10 @@ title: Instagram Archive
   <header>
     <h1>Instagram Archive</h1>
     <small>A long time ago, I used to post photos on Instagram. They are now preserved here for sanity and posterity.</small>
-    <p>{{ site.data.media.instamatic-photos.size }} photos</p>
+    <p>{{ site.data.photos.instamatic.size }} photos</p>
   </header>
 
-  {% for photo in site.data.media.instamatic-photos %}
+  {% for photo in site.data.photos.instamatic %}
   <article>
     <figure>
       <a href="/assets/images/instamatic/{{ photo.path }}">
